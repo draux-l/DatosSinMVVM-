@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DatosSinMVVMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ScreenUser()   
+                    ScreenUser()
                 }
             }
         }
